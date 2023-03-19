@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="joker.js"></script>
+    <style>
+
+        body {
+            font-family: tahoma;
+            font-size: 12px;
+            margin: 5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            gap: 2rem;
+            --border: 1rem;
+            --padding: 1rem;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+        }
+
+        div {
+            text-align: center;
+            background-color:  rgb(167, 221, 221);
+            border-radius: var(--border);
+            padding: var(--padding);
+        }
+
+        button {
+            width:max-content;
+            background-color: rgb(223, 212, 234);
+            border: none;
+            border-radius: var(--border);
+            padding: var(--padding);
+        }
+
+        button:hover {
+            cursor: pointer;
+            scale: 1.2;
+            transition: 0.5;
+        }
+
+        .hide {
+            display: none;
+        }
+
+
+
+    
+    </style>
+</head>
+<body>
+
+    <h1>Press the button and check if this is your lucky day!</h1>
+    <h2>WIN UP TO 50.000.000kr</h2>
+    <button>GET LUCKY</button>
+    <div class="hide"></div>
+</body>
+</html>
